@@ -1,3 +1,5 @@
+#attempts to login to poshmark through google account using selenium
+#currently only works on new accounts due to automation detection, trying to find a workaround
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -7,6 +9,7 @@ chrome_path = r"C:\Users\Guest1\PycharmProjects\selenium scraper\chromedriver.ex
 driver = webdriver.Chrome(chrome_path)
 driver.get("http://www.poshmark.ca/login")
 
+#for user to change
 username = input_email
 password = input_password
 
