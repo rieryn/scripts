@@ -14,7 +14,8 @@ export graph
 # dependencies
 ```
 Selenium
-sqlite
+sqlite3
+pandas
 ```
 
 
