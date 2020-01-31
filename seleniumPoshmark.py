@@ -30,3 +30,4 @@ element = driver.find_element_by_xpath("//*[@id='Email']").send_keys(username)
 driver.find_element_by_id("next").click()
 #driver.switch_to_window(window_before)
 driver.find_element_by_id("Passwd").send_keys(password)
+ 
