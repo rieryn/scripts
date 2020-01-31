@@ -11,6 +11,13 @@ export excel file
 
 export graph
 
+# dependencies
+```Selenium
+
+sqlite
+```
+
+
 # Troubleshooting
 make sure selenium is installed with: ```pip install selenium```
 paste urls from https://ssense.com/ into the notepad seperated by line
