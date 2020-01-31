@@ -12,8 +12,8 @@ export excel file
 export graph
 
 # dependencies
-```Selenium
-
+```
+Selenium
 sqlite
 ```
 
